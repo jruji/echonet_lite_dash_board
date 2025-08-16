@@ -1,0 +1,10 @@
+{
+  "name": "flutter-web-dev",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"dart run server.dart\" \"flutter run -d chrome --dart-define-from-file config/config.json\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
